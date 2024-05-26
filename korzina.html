@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина покупок</title>
+    <link rel="stylesheet" href="korzina.css">
+</head>
+<body>
+    <div class="cart-container">
+        <div class="korzina-imgs">
+            <img class="korzina-img" src="images/logo.png" alt="">
+            <a href="index.html"><img class="korzina-img" src="images/k.png" alt=""></a>
+        </div>
+        <h1>Корзина покупок</h1>
+        
+        <div class="cart-items">
+            <div class="cart-item">
+                <img src="images/1(2).jpg" alt=" ">
+                <div class="item-details">
+                    <h2>Толстовка Nike Tech Fleece</h2>
+                    <p class="price">13340₽</p>
+                    <label for="quantity1">Количество: </label>
+                    <input type="number" id="quantity1" value="1" min="1">
+                    <p class="item-total">Итого: 13340₽</p>
+                    <button class="remove-btn">Удалить</button>
+                </div>
+            </div>
+            <div class="cart-item">
+                <img src="images/3.jpg" alt=" ">
+                <div class="item-details">
+                    <h2>Жакет Spirit of Kattana</h2>
+                    <p class="price">12700₽</p>
+                    <label for="quantity2">Количество: </label>
+                    <input type="number" id="quantity2" value="1" min="1">
+                    <p class="item-total">Итого: 12700₽</p>
+                    <button class="remove-btn">Удалить</button>
+                </div>
+                
+                    <img src="images/4(2).jpg" alt=" ">
+                    <div class="item-details">
+                        <h2>Свитшот Karl Lagerfeld</h2>
+                        <p class="price">9790₽</p>
+                        <label for="quantity2">Количество: </label>
+                        <input type="number" id="quantity2" value="1" min="1">
+                        <p class="item-total">Итого: 9790₽.</p>
+                        <button class="remove-btn">Удалить</button>
+                    </div>
+                    
+                        <img src="images/9(2).jpg" alt=" ">
+                        <div class="item-details">
+                            <h2>Брюки утепленные I’m Siberian</h2>
+                            <p class="price">899₽</p>
+                            <label for="quantity2">Количество: </label>
+                            <input type="number" id="quantity2" value="1" min="1">
+                            <p class="item-total">Итого: 899₽</p>
+                            <button class="remove-btn">Удалить</button>
+                        </div>
+            </div>
+        </div>
+        <div class="total">
+            <p>Общая сумма: <span>36 729₽</span></p>
+            <button class="checkout-btn">Оформить заказ</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
